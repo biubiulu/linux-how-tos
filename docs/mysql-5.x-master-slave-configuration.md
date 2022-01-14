@@ -11,7 +11,6 @@ wget https://repo.percona.com/apt/percona-release_latest.$(lsb_release -sc)_all.
 sudo dpkg -i percona-release_latest.$(lsb_release -sc)_all.deb
 sudo apt-get update
 sudo apt-get install percona-xtrabackup-24 # MySQL 5.7 得装 percona-xtrabackup-24
-sudo apt-get install percona-xtrabackup-80 # MySQL 5.7 得装 percona-xtrabackup-80
 
 ```
 
